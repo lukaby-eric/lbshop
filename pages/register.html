@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Shopping</title>
+</head>
+<body>
+    <!---------------------------------------------- Navbar ---------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">LB-shop</a>
+            <button id="nav-btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav" id="nav-links">
+                <a class="nav-item nav-link active" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="shop.html">Shop</a>
+                <a class="nav-item nav-link" href="#">Blog</a>
+                <a class="nav-item nav-link" href="../pages/contact.html">Contact</a>
+                <a class="nav-item nav-link" href="../pages/saved.html"><i class="fa fa-heart"></i></a>
+                <a class="nav-item nav-link" href="../pages/cart.html"><i class="fa fa-shopping-cart"></i></a>
+                <a class="nav-item nav-link" href="../pages/user.html"><i class="fa fa-user"></i></a>
+            </div>
+            </div>
+        </div>
+      </nav>  
+
+<!---------------------------------------------- Register ---------------------------------------------->
+
+<section class="cart py-5">
+    <div class="container py-5">
+        <h3 class="text-center pt-5" id="title">Crete an Account</h3>
+        <p id="line"></p>
+    </div>
+    <div class="mx-auto container">
+        <form id="register-form" action="">
+            <div class="form-group">
+                <input type="text" autocomplete="off" class="form-control" id="register-name" name="names" placeholder="Full names..." required>
+            </div>
+            <div class="form-group">
+                <input type="email" autocomplete="off" class="form-control" id="register-email" name="email" placeholder="Email..." required>
+            </div>
+            <div class="form-group">
+                <input type="tel" autocomplete="off" class="form-control" id="register-phone" name="phone" placeholder="Phone number..." required>
+            </div>
+            <div class="form-group">
+                <input type="password" autocomplete="off" class="form-control" id="register-password" name="password" placeholder="Password..." required>
+            </div>
+            <div class="form-group">
+                <input type="password" autocomplete="off" class="form-control" id="register-password2" name="password2" placeholder="Confirm Password..." required>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn" id="register-btn" name="register" value="Register">
+            </div>
+            <div class="form-group">
+                <a href="../pages/user.html" class="btn" id="register-url">If you already have an account, Click here</a>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+<!-------------------------------------------- Contact us ---------------------------------------------->
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="logo"><h2><a href="../index.html">LB-Shop</a></h2></div>
+                <p>We provide the best products for the most affordable price</p>
+            </div>
+            <div class="col-md-3">
+                <h4>Features</h4>
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Assesories</a></li>
+                    <li><a href="#">Electronics</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><b>Email:</b></li>
+                    <li><a href="#">ericlukabya@gmail.com</a></li>
+                    <li><b>Phone:</b></li>
+                    <li><a href="#">+1 (816)-914-4602</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Social Links</h4>
+                <ul id="Social-Links">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="text-center"><i>Lukabya Lubingo 2023 &copy;Copyright All right reserved</i></p>
+</section>
+
+
+<!-- -------------------------------------------- Bottstrap js links--------------------- -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../assets/js/script.js"></script>
+    </body>
+</html>
